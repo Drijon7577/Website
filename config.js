@@ -15,7 +15,7 @@ module.exports = {
                 color: "#0EEFD5"
             },
             emote: "https://cdn.discordapp.com/emojis/819816473383665724.webp?size=100&quality=lossless",
-            text: "Working as usuall"
+            text: "Working as usual"
         },
         activities: [],
         createdTimestamp: 1615924806867,
