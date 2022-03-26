@@ -19,8 +19,8 @@ module.exports = {
         },
         activities: [],
         createdTimestamp: 1615924806867,
-        avatar: "cdn.drijon.tk/PB_Drijon.png",
-        banner: "https://cdn.drijon.tk/sunset.png",
+        avatar: "https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096",
+        banner: "https://cdn.discordapp.com/attachments/957388729830486116/957388801330786375/sunset.jpg",
         accentColor: "#0EEFD5"
     },
     cards: [{
@@ -49,7 +49,7 @@ module.exports = {
         url: 'help@drijon.xyz'
     }],
     header: {
-        icon: `https://cdn.drijon.tk/PB_Drijon.png`,
+        icon: `https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096`,
         name: `Drijon H.`,
         buttons: {
             Discord: `discord.gg/Hfr2wdbGZC `,
