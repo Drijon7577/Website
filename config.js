@@ -8,19 +8,19 @@ module.exports = {
         username: "</> Drijon",
         discriminator: "7577",
         nickname: "Drijon H.",
-        nickavatar: "https://cdn.discordapp.com/avatars/778557320123777026/a_70dd8ad57dbddd5f0bad0be604b00072.gif?size=1024",
+        nickavatar: "https://cdn.drijon.tk/PB_Drijon.png",
         status: {
             state: {
                 text: "online",
                 color: "#0EEFD5"
             },
             emote: "https://cdn.discordapp.com/emojis/819816473383665724.webp?size=100&quality=lossless",
-            text: "Coding"
+            text: "Working as usuall"
         },
         activities: [],
         createdTimestamp: 1615924806867,
-        avatar: "https://cdn.discordapp.com/avatars/778557320123777026/a_70dd8ad57dbddd5f0bad0be604b00072.gif?size=1024",
-        banner: "https://cdn.discordapp.com/attachments/840636177924882482/950061776517611581/unknown.png",
+        avatar: "cdn.drijon.tk/PB_Drijon.png",
+        banner: "https://cdn.drijon.tk/sunset.png",
         accentColor: "#0EEFD5"
     },
     cards: [{
@@ -49,47 +49,24 @@ module.exports = {
         url: 'help@drijon.xyz'
     }],
     header: {
-        icon: `https://cdn.discordapp.com/avatars/778557320123777026/a_70dd8ad57dbddd5f0bad0be604b00072.gif?size=1024`,
+        icon: `https://cdn.drijon.tk/PB_Drijon.png`,
         name: `Drijon H.`,
         buttons: {
-            Discord: `/go/discord`,
-            GitHub: `/go/github`,
-            Twitter: `/go/twitter`
+            Discord: `discord.gg/Hfr2wdbGZC `,
+            GitHub: `https://github.com/drijon7577`,
+            Reddit: `https://reddit.com/drijonh_`
         }
     },
     metadata: {
         title: `Drijon`,
-        description: `Hii, i'm Drijon`,
-        image: `https://cdn.discordapp.com/avatars/778557320123777026/a_70dd8ad57dbddd5f0bad0be604b00072.gif?size=1024`,
+        description: `:wave: Heyya, i'm **Drijon** [He/Him] | I live in **Italy**, and i am a **Web Developer** wanna know more about me? click the link below!`,
+        image: `https://cdn.drijon.tk/PB_Drijon.png`,
         domainName: `https://drijon.xyz`,
         color: `#0EEFD5`,
         keywords: [
             'Drijon',
             'Drijon',
-            'Lunish#8888',
-            'Lunish Twitter',
-            'Lunish Discord',
-            'Lunish GitHub',
-            'Lunish Onlyfans',
-            'waya bot',
-            'waya',
-            'waya.one',
-            'discord waya',
-            'Seemann',
-            'Luna Seemann',
-            'Flamex',
-            'Bendix',
-            'dbleu',
-            'dbleu staff',
-            'discord-botlist.eu',
-            'discord-botlist.eu staff',
-            'Tixte',
-            'Tixte staff',
-            'Dasu',
-            'Dasu staff',
-            'Pronouns',
-            'Pronouns bot',
-            'Pronouns discord'
+            'Drijon#7577',
         ],
 
     }
