@@ -67,6 +67,7 @@ module.exports = {
             'Drijon',
             'Drijon',
             'Drijon#7577',
+            'Drijoncheen',
         ],
 
     }
