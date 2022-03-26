@@ -8,7 +8,7 @@ module.exports = {
         username: "</> Drijon",
         discriminator: "7577",
         nickname: "Drijon H.",
-        nickavatar: "https://cdn.drijon.tk/PB_Drijon.png",
+        nickavatar: "https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096",
         status: {
             state: {
                 text: "online",
