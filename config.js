@@ -52,7 +52,7 @@ module.exports = {
         icon: `https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096`,
         name: `Drijon H.`,
         buttons: {
-            Discord: `discord.gg/Hfr2wdbGZC `,
+            Discord: `https://discord.gg/Hfr2wdbGZC `,
             GitHub: `https://github.com/drijon7577`,
             Reddit: `https://reddit.com/drijonh_`
         }
