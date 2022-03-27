@@ -8,10 +8,11 @@ export default class Error404 extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Luna - 404</title>
+                    <title>Drijon - 404</title>
                 </Head>
                 <div className={style.align}>
                     <div className={style.container}>
+                        <img src='https://learn.getgrav.org/user/pages/11.troubleshooting/01.page-not-found/error-404.png' style={{ width: '100%' }} />
                         <strong style={{ fontSize: 32, color: '#ddd9e6' }}>404</strong><text style={{ color: 'rgb(65, 59, 74)', fontSize: 24 }}> ⌋ Page not found</text> <br />
                         <button onClick={() => window.location.href = `/`} className='button' style={{ marginTop: 10 }}>
                             <HiHome style={{ height: 22, width: 22, marginTop: 1.8, marginRight: 5 }} />
