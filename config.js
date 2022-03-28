@@ -20,7 +20,7 @@ module.exports = {
         activities: [],
         createdTimestamp: 1615924806867,
         avatar: "https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096",
-        banner: "https://cdn.discordapp.com/attachments/957388729830486116/957388801330786375/sunset.jpg",
+        banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLrsQkNALu2jcFkKZLIGem2tDaL0CjIkdL7w&usqp=CAU",
         accentColor: "#0EEFD5"
     },
     cards: [{
