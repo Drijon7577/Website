@@ -1,6 +1,6 @@
 module.exports = {
     api: {
-        url: 'https://panel.tutorialecke.org:1715/',
+        url: 'https://API.drijonh.repl.co',
         path: '/'
     },
     user: {
