@@ -1,6 +1,6 @@
 module.exports = {
     api: {
-        url: 'https://API.drijonh.repl.co',
+        url: 'https://api.drijonh.repl.co',
         path: '/'
     },
     user: {
