@@ -46,6 +46,19 @@ export default function Homepage({ user, cards, error }) {
                                 I'm a  <strong>Web Developer</strong> and <strong></strong>
                                 I self taught me the programming Language <strong>Python</strong> and with some help of a friend i created my first Discord Bot <strong>Not Public </strong>  
                                 If you want to learn more about me, DM me or my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}>Join my Discord Server</button> 
+               
+
+                           <br />
+                           <br />
+
+                            I am mainly working at my <strong>Bot @Sienna</strong> - Simple and Modern<br />
+                            with the main weight on <strong>Fun</strong> and <strong>Starboard and more</strong>. <br />
+                            You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://drijon.xyz/')}>https://waya.one</button> <img src='https://cdn.discordapp.com/emojis/959513603097116763.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
+                            </div>
+                            <br />
+
+                            <br />
+                            <br />
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>👨‍💻 Languages & Programming Languages</strong><br />
