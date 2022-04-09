@@ -35,41 +35,39 @@ export default function Homepage({ user, cards, error }) {
                         </div>
                         <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : 4 }}>
                             <button className={style.badge} title='https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173' onClick={() => window.open('https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173')}> <HiOutlineFire style={{ height: 22, width: 22, marginRight: 4 }} /> UI&nbsp;Designer </button>
-                            <button className={style.badge} title='https://waya.one/go/github' onClick={() => window.open('https://waya.one/go/github')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
+                            <button className={style.badge} title='https://waya.one/go/github' onClick={() => window.open('https://github.com/drijon7577')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
                         </div>
                     </div>
                     <div className={style.content}>
                         <div className={style.readme}>
                             <strong style={{ fontSize: 27 }}>👋 About me</strong> <br />
                             <div style={{ marginTop: 8, marginLeft: 12, display: 'block' }}>
-                                I'm <strong>Luna</strong>, born at <strong>17th of April</strong> and currently live in <strong>Austria</strong> near Vienna.. I'm some hobby <strong>Software Engineer</strong> and <strong>LGBTQ+ Activist</strong>.
-                                I'm a proud <strong>Lesbian</strong> <img src='https://cdn.discordapp.com/emojis/750307298827567236.png?size=20&quality=lossless' style={{ position: 'relative', top: 5 }} draggable={false} /> and currently have a crush haha
+                                Heyya I'm <strong>Drijon</strong>, born in <strong>South Tyrol</strong> and i cuttently also live in <strong>South Tyrol</strong> I'm a <strong>Web Developer</strong> and <strong> Server Owner and Moderator</strong>.
+                                <br />
+                                <br />
+
+                                I'm <strong>Male</strong> and my pronouns are <strong>He/Him</strong> <img src='https://cdn.discordapp.com/emojis/959513603147432026.webp?size=100&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites in general and I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
 
                                 <br />
                                 <br />
 
-                                I'm <strong>female</strong> and my pronouns are <strong>She/Her</strong> <img src='https://cdn.discordapp.com/emojis/959513603134853180.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites in general and I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
-
-                                <br />
-                                <br />
-
-                                I currently mainly work at my <strong>heart project @Waya</strong> - a multi-function bot <br />
-                                with the main weight on <strong>Pronouns</strong> and <strong>Server Moderation</strong>. <br />
-                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one')}>https://waya.one</button> <img src='https://cdn.discordapp.com/emojis/959513603097116763.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
+                                I am currently working at my <strong>Project called Sienna</strong> a Modern Discord Bot <br />
+                                with the main weight on <strong>Fun</strong> Moderation <strong> and Starboard</strong>. <br />
+                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('drijon.xyz')}>https:drijon7577.tk</button>
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}>🪄 Languages</strong><br />
+                            <strong style={{ fontSize: 27 }}>👨‍💻 Languages and Programming Languages</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
                                 •&nbsp; JavaScript, Node.JS<br />
-                                •&nbsp; Next.JS, Express<br />
-                                •&nbsp; HTML, CSS<br />
-                                •&nbsp; MongoDB<br />
+                                •&nbsp; Python<br />
+                                •&nbsp; HTML & CSS<br />
+                                •&nbsp; English, Albanian, German andItalian<br />
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}>🍧 Contact</strong><br />
+                            <strong style={{ fontSize: 27 }}>📞 Contact</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                You want to collaborate with me or just want to have a nice talk in with my community? <br />
-                                Feel free to join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one/go/discord')}>Discord server</button> and shoot a ping at me!
+                                You want to know more about me?? <br />
+                                Feel free to join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}>Discord server</button> and shoot a ping at me!
                             </div>
                         </div>
                         <div className={user?.activities.length > 0 ? style.section : ''}>
