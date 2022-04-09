@@ -53,7 +53,7 @@ export default function Homepage({ user, cards, error }) {
 
                                 I am currently working at my <strong>Project called Sienna</strong> a Modern Discord Bot <br />
                                 with the main weight on <strong>Fun</strong> Moderation <strong> and Starboard</strong>. <br />
-                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('drijon.xyz')}>https:drijon7577.tk</button>
+                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}>my Server</button>
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>👨‍💻 Languages and Programming Languages</strong><br />
@@ -61,7 +61,7 @@ export default function Homepage({ user, cards, error }) {
                                 •&nbsp; JavaScript, Node.JS<br />
                                 •&nbsp; Python<br />
                                 •&nbsp; HTML & CSS<br />
-                                •&nbsp; English, Albanian, German andItalian<br />
+                                •&nbsp; English, Albanian, German and Italian<br />
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>📞 Contact</strong><br />
