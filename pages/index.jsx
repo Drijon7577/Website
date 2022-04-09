@@ -34,34 +34,42 @@ export default function Homepage({ user, cards, error }) {
                             }
                         </div>
                         <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : 4 }}>
-                            <button className={style.badge} title='https://discord.gg/Hfr2wdbGZC' onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}> <HiOutlineFire style={{ height: 22, width: 22, marginRight: 4 }} /> Server </button>
-                            <button className={style.badge} title='' onClick={() => window.open('https://discord.com/channels/@me/950070037438414899')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} />DM Me</button>
+                            <button className={style.badge} title='https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173' onClick={() => window.open('https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173')}> <HiOutlineFire style={{ height: 22, width: 22, marginRight: 4 }} /> UI&nbsp;Designer </button>
+                            <button className={style.badge} title='https://waya.one/go/github' onClick={() => window.open('https://waya.one/go/github')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
                         </div>
                     </div>
                     <div className={style.content}>
                         <div className={style.readme}>
                             <strong style={{ fontSize: 27 }}>👋 About me</strong> <br />
-                            <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                I'm <strong>Drijon</strong>, born in <strong>South Tyrol </strong> and live in <strong>Italy</strong> to be precise in South Tyrol.
-                                I'm a  <strong>Web Developer</strong> and <strong></strong>
-                                I self taught me the programming Language <strong>Python</strong> and with some help of a friend i created my first Discord Bot <strong>Not Public </strong>  
-                                If you want to learn more about me, DM me or my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}>Join my Discord Server</button> 
+                            <div style={{ marginTop: 8, marginLeft: 12, display: 'block' }}>
+                                I'm <strong>Luna</strong>, born at <strong>17th of April</strong> and currently live in <strong>Austria</strong> near Vienna.. I'm some hobby <strong>Software Engineer</strong> and <strong>LGBTQ+ Activist</strong>.
+                                I'm a proud <strong>Lesbian</strong> <img src='https://cdn.discordapp.com/emojis/750307298827567236.png?size=20&quality=lossless' style={{ position: 'relative', top: 5 }} draggable={false} /> and currently have a crush haha
+
+                                <br />
+                                <br />
+
+                                I'm <strong>female</strong> and my pronouns are <strong>She/Her</strong> <img src='https://cdn.discordapp.com/emojis/959513603134853180.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites in general and I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
+
+                                <br />
+                                <br />
+
+                                I currently mainly work at my <strong>heart project @Waya</strong> - a multi-function bot <br />
+                                with the main weight on <strong>Pronouns</strong> and <strong>Server Moderation</strong>. <br />
+                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one')}>https://waya.one</button> <img src='https://cdn.discordapp.com/emojis/959513603097116763.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}>👨‍💻 Languages & Programming Languages</strong><br />
+                            <strong style={{ fontSize: 27 }}>🪄 Languages</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                •&nbsp; English <br />
-                                •&nbsp; German<br />
-                                •&nbsp; Italian<br />
-                                •&nbsp; Albanian<br />
-                                •&nbsp; Python<br />
-                                •&nbsp; HTML/CSS/JavaScript
+                                •&nbsp; JavaScript, Node.JS<br />
+                                •&nbsp; Next.JS, Express<br />
+                                •&nbsp; HTML, CSS<br />
+                                •&nbsp; MongoDB<br />
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}></strong><br />
+                            <strong style={{ fontSize: 27 }}>🍧 Contact</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                Want to talk with me?  <br />
-                                Join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/Hfr2wdbGZC')}>Discord server</button> and Ping me, or E-Mail me under this E-Mail: help@drijon.xyz
+                                You want to collaborate with me or just want to have a nice talk in with my community? <br />
+                                Feel free to join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one/go/discord')}>Discord server</button> and shoot a ping at me!
                             </div>
                         </div>
                         <div className={user?.activities.length > 0 ? style.section : ''}>
@@ -96,7 +104,17 @@ export default function Homepage({ user, cards, error }) {
                         <div className={cards?.length > 0 ? style.section : ''} style={{ marginBottom: width > 540 ? 20 : 60 }}>
                             {cards?.map((card) => (
                                 <div className={style.readme} style={{ paddingLeft: 14 }} key={card.name}>
-                                    <strong style={{ fontSize: 24, color: '#ddd9e6' }}>{card.name}</strong>{card.position ? <text style={{ color: 'rgb(99, 90, 112)' }}> ⌋ {card.position}</text> : <></>}
+                                    <strong style={{ fontSize: 24, color: '#ddd9e6' }}>{card.name}</strong>
+                                    {card?.bot > 0 ?
+                                        <badge style={{ backgroundColor: `#5865f2`, fontWeight: 600, fontFamily: 'Open Sans, sans-serif', fontSize: 13, padding: 2, paddingRight: 6, paddingLeft: (card?.bot > 1 ? 19 : 6), borderRadius: 4, color: '#fff', position: 'relative', marginLeft: 4 }}>
+                                            {card?.bot > 1 ? <svg style={{ position: 'absolute', top: 4, left: 2.5 }}>
+                                                <path d="M7.4,11.17,4,8.62,5,7.26l2,1.53L10.64,4l1.36,1Z" fill="#fff"></path>
+                                            </svg> : <></>}
+                                            BOT
+                                        </badge>
+                                        : <></>
+                                    }
+                                    {card.position ? <text style={{ color: 'rgb(99, 90, 112)' }}> ⌋ {card.position}</text> : <></>}
                                     <div style={{ marginTop: 4, display: 'flex' }}>
                                         <HiOutlineNewspaper style={{ minHeight: 22, minWidth: 22 }} />
                                         <div style={{ marginTop: 2 }}>&nbsp;{card.description}</div>
