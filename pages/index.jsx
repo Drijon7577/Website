@@ -62,7 +62,7 @@ export default function Homepage({ user, cards, error }) {
                             <br />
                             <strong style={{ fontSize: 27 }}>👨‍💻 Languages and Programming Languages</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                •&nbsp; JavaScript, Node.JS<br />
+                                •&nbsp; JavaScript, Node.JS (Still improving)<br />
                                 •&nbsp; Python<br />
                                 •&nbsp; HTML & CSS<br />
                                 •&nbsp; English, Albanian, German and Italian<br />
