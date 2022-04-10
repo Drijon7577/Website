@@ -46,7 +46,7 @@ export default function Homepage({ user, cards, error }) {
                                 <br />
                                 <br />
 
-                                I'm <strong>Male</strong> and my pronouns are <strong>He/Him</strong> <img src='https://cdn.discordapp.com/emojis/959513603147432026.webp?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites in general and I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
+                                I'm <strong>Male</strong> and my pronouns are <strong>He/Him</strong> <img src='https://cdn.discordapp.com/emojis/959513603147432026.webp?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites and more and have fun on Discord. I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
 
                                 <br />
                                 <br />
