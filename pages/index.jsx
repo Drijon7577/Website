@@ -57,7 +57,6 @@ export default function Homepage({ user, cards, error }) {
 
                                 <br />
                                 <br />
-                                Also big big Thank You to <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://lunish.gay/')}> Luna </button> for letting me use this Website, make sure to check her out^^
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>👨‍💻 Languages and Programming Languages</strong><br />
