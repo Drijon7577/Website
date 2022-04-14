@@ -42,7 +42,7 @@ export default function Homepage({ user, cards, error }) {
                         <div className={style.readme}>
                             <strong style={{ fontSize: 27 }}>👋 About me</strong> <br />
                             <div style={{ marginTop: 8, marginLeft: 12, display: 'block' }}>
-                                Heyya I'm <strong>Drijon</strong>, born in <strong>South Tyrol</strong> and i cuttently also live in <strong>South Tyrol</strong> I'm a <strong>Web Developer</strong> and <strong> Server Owner and Moderator</strong>.
+                                Heyya I'm <strong>Drijon</strong>, born in <strong>South Tyrol</strong> and i cuttently also live in <strong>South Tyrol</strong> I'm a <strong>Web Developer</strong> and <strong> Server Owner and Teamleader</strong>.
                                 <br />
                                 <br />
 
