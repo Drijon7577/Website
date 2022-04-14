@@ -34,7 +34,7 @@ module.exports = {
         icon: 'https://cdn.discordapp.com/icons/846059846033211402/f475dcf7565fbb27992bc901d2d5adf5.png?size=4096',
         description: 'German Gaming & Chill Server ',
         url: 'https://discord.gg/psychocord',
-        position: `Teamleitung`
+        position: `Teamleader`
     }, {
         name: 'Spotify',
         icon: 'https://cdn.discordapp.com/emojis/940644008840032316.webp?size=100&quality=lossless',
