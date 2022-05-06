@@ -35,19 +35,7 @@ module.exports = {
         description: 'German Gaming & Chill Server ',
         url: 'https://discord.gg/psychocord',
         position: `Teamleader`
-    }, {
-        name: 'Spotify',
-        icon: 'https://cdn.discordapp.com/emojis/940644008840032316.webp?size=100&quality=lossless',
-        description: 'My Spotify Playlist',
-        url: 'https://open.spotify.com/playlist/1Ex3MxbbKLI84k7LP1AYLE?si=4d3a5fdd17714dc9',
-        position: `Playlist Owner`
-    }, {
-        name: 'E-Mail ',
-        icon: 'https://cdn.discordapp.com/emojis/866089515536744468.webp?size=100&quality=lossless',
-        description: 'My E-Mail to contact me ',
-        position: `E-Mail`,
-        url: 'help@drijon.xyz'
-    }],
+    }, 
     header: {
         icon: `https://cdn.discordapp.com/avatars/778557320123777026/b5a47116b4f465d7de313b4ca9a50895.png?size=4096`,
         name: `Drijon H.`,
