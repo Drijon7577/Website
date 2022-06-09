@@ -1,11 +1,11 @@
 module.exports = {
     api: {
         url: 'https://api.drijonh.repl.co',
-        path: '/'
+        path: 'https://drijon.xyz/api'
     },
     user: {
         id: "778557320123777026",
-        username: "</> Drijon",
+        username: "Drijon",
         discriminator: "7577",
         nickname: "Drijon H.",
         nickavatar: "https://us-east-1.tixte.net/uploads/cdn.drijon.tk/chrome_bMJm0pToow.png",
