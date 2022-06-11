@@ -1,6 +1,7 @@
 module.exports = {
     api: {
         url: 'https://api.drijonh.repl.co',
+        path: '/'
     },
     user: {
         id: "778557320123777026",
